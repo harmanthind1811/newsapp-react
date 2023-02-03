@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif&family=Roboto+Slab&display=swap');
+/* .container{
+    width: 100%;
+    display: flex ;
+    justify-content: flex-end;
+ 
+}
+
+*/ .modal {
+    
+
+    padding: 1rem;
+    width: 80vw;
+   height: 83vh;
+    position: fixed;
+    top: 11vh;
+    left: 22vh;
+    background-color: snow;
+    border: none;
+    border-radius: 1vh;
+    box-shadow: 0px 0px 2px 1px rgb(51, 49, 49);
+    z-index: 1;
+    
+   
+}
+/* 
+This is not working, fix it...
+*/
+.modal::backdrop{
+    /* background: steelblue;
+    opacity: 0.3; */
+    backdrop-filter: blur(2px);
+} 
+
+.img{
+    height: 50vh;
+     width: auto;
+     float: left;
+     margin-right: 1vw;
+     margin-top: 1vw;
+     margin-bottom: 1vw;
+}
+.content{
+    margin-top: 1vw;
+    font-family:'Roboto Slab', serif;
+    font-size: 1.45vw;
+    margin-right: 0.5vw;
+}
+
+.Robboto{
+    font-family: 'Roboto Slab', serif;
+}
+.ReadStory{
+    position: absolute;
+    top: 34vw;
+    left: 60vw;
+    padding: 1vw;
+    border: none;
+    border-radius: 1.5vw;
+    background-color: steelblue;
+    color: snow;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2vw;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+}
+.button{
+    position: absolute;
+    top: 34vw;
+    left: 71vw;
+    padding: 1vw;
+    border-radius: 1.5vw;
+    background-color: steelblue;
+    font-family: 'Roboto Slab', serif;
+    color: snow;
+    font-size: 1.2vw;
+    border: none;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
